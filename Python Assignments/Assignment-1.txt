@@ -1,0 +1,91 @@
+1. What are the differences between operators and values in the following?
+
+*
+'hello'
+-87.8
+-
+/
++
+6
+
+Ans: Operators are placeholders that can initiate a specific operation. For instance, * or Asterisk initiates the multiplication operation on values or Operands given to it. Operators in the question are * - / and +. Operands are 'hello', -87.8 and 6. Based on the values entered, an operand can also work in operator overloading.
+
+
+
+2. What is the difference between string and variable?
+spam
+'spam'
+
+Ans: A string is a datatype for Python Programming language that can be used as operand in various operations. A variable is a name to which memory is allocated for storing data(integer, float, string etc) temporarily. The name for a variable cannot be a number, should not be a built-in function and should not have any special characters.
+
+
+
+3. Describe three different data forms.
+
+Ans: Number-Numeric data form is about storing and processing integer and float values. Example: 1, 1.5
+String- set of characters inside qoutes is string data form. Example "Prashant". String data form allows slicing.
+List- Items of same or different data type inside square bracket is list data form. Example [1,"Prashant",3.5]. Like String, List also allow slicing
+
+.
+
+4. What makes up an expression? What are the functions of all expressions?
+
+Ans: Operands and Operators, and variables to store the results make up an expression. 
+Functions of expressions:
+
+Relational expression: Produces result in the form of True or False after evaluating or comparing the operands which are constant values or values stored inside variables. Example: x>y
+Logical expression: Produces result in the form of True or False after evaluating the combination of two or more relational expressions. Example (x>y and x>=100)
+Bitwise expressions: Used to manipulate or shift bit level data. y >> 2 would shift 2 bits to the right. 
+Integral and Float expressions: Produce results after performing operations in the form of float or int datatype. (x+y)/5
+Pointer expressions: Produce memory address related results. Example: &y
+
+
+
+5. In this chapter, assignment statements such as spam = 10 were added. What's the difference between a declaration and an expression?
+
+Ans: An expression stores or at least stores a result due to a combination of operations being done on operands. By declaring, any value, whether string, or integer or float is stored inside a variable. This stored value is called or invoked only when called.
+
+
+
+6. After running the following code, what does the variable bacon contain?
+
+bacon = 2
+2
+bacon + 1
+
+Ans: 23
+
+
+
+7. What should the values of the following two terms be?
+
+
+'spam' + 'spamspam'
+
+'spam' * 3
+
+Ans: spamspamspam
+
+     spamspamspam
+    
+ 
+
+8. Why is it that eggs is a true variable name but 100 is not?
+
+Ans: Numbers cannot be variables. Alphabetical letters are acceptible as variable names. Numbers are only acceptible in a variable name if the variable name starts with an underscore or alphabetical letter followed by a number
+
+.
+
+9. Which of the following three functions may be used to convert a value to an integer, a floating-point number, or a string?
+
+Ans: float(), int() and str() can be used to change the type of a value.
+
+
+
+10. What is the error caused by this expression? What would you do about it?
+
+
+'I have eaten ' + 99 + ' burritos.'
+
+
+Ans: Operator overloading only works if an operator is dealing with only string or only integer values. Mixing both and trying to get result by operator overloading will produce error. We can change the number 99 to a string datatype and then the operator overloading would work fine.
