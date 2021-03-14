@@ -9,6 +9,7 @@
   *a. Learning the overall sentiment of consumers regarding a product launched a while ago using their reviews on an e-commerce website using Natural Language Processing to understand how the product is faring in the market*
    
   *b. Using machine learning algorithms to cluster similar customers and provide them recommendations based on their history, on a streaming service platform.*
+  
 
 2. Describe the process of human learning:
 
@@ -23,6 +24,7 @@ ii. With the assistance of experts in an indirect manner
 iii. Self-education
 
   *Ans: Under no supervision, learning is defined by self guidance provided to the learner by himself. The learner has the entire burden of finding ways to solve certain type of problems. Problems can range from formal communication, to mathematical calculations. Only self-calculated answers provide for rectifications and course correction during learning.*
+  
 
 3. Provide a few examples of various types of machine learning.
 
