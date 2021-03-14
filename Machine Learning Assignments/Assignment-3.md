@@ -4,8 +4,9 @@
 
    *Ans: Machine Learning is a subset of Artificial Intelligence which provides mathematical tools to analyze data, do Exploratory Data Analysis, make predictive models and exposed APIs and more. Machine Learning works by providing the computer capability to make predictions or help analysis of data by creating complex algorithmic models that are trained to work within constraints that have to be specified in training data.*
    
-   *Applications: 
-   a. Learning the overall sentiment of consumers regarding a product launched a while ago using their reviews on an e-commerce website using Natural Language Processing to understand how the product is faring in the market*
+   *Applications:*
+   
+   *a. Learning the overall sentiment of consumers regarding a product launched a while ago using their reviews on an e-commerce website using Natural Language Processing to understand how the product is faring in the market*
    
    *b. Using machine learning algorithms to cluster similar customers and provide them recommendations based on their history, on a streaming service platform.*
 
@@ -75,13 +76,19 @@ Cascading models are built when the cost of making a mistake in prediction is hi
 
 *Ans: Logistic Regression- It is a binary classification algorithm based on linear regression. A hyperplane is fit using a mathematical equation such that most of training data points are correctly classified into two class labels. Lambda is used as the hyperparameter. Lambda=0 would lead to overfitting and large lambda would lead to underfitting. Logistic Regression can be easily applied for classifying whether a voter would vote for BJP or Congress based on factors like number of visits by politicians, work done in their neighborhood etc. 
 
-Decision Tree- It is a multi class classifier that creates multiple hyperplanes that can funnel down the data points based on criteria and classify data points that pass certain threshold/criteria and do not. In different sense, it creates up side down trees and keeps splitting data points for each criteria they pass and do not pass. Decision Tree is based on the concept of maximising the information gain from splitting the data points using criterias. Depth is the hyperparameter for Decision Trees and needs to be tuned. Large depths can lead to overfitting while small depths lead to underfitting. Classifying the data points using each passed criteria for Petal length, petal width, sepal length and sepal width can be done for IRIS dataset.
+Decision Tree- It is a multi class classifier that creates multiple hyperplanes to funnel down the data points based on criteria and classify data points that pass certain threshold/criteria and do not. In a different sense, it creates up side down trees and keeps splitting data points for each criteria they pass and do not pass. Decision Tree is based on the concept of maximising the information gain from splitting the data points using criterias. Depth is the hyperparameter for Decision Trees and needs to be tuned. Large depths can lead to overfitting while small depths lead to underfitting. Classifying the data points using each passed criteria for Petal length, petal width, sepal length and sepal width can be done for IRIS dataset.
+
+K-NN- K nearest neighbors requires nearest instances or similar instances for a data point to be successfully classified. Normally, training data is learned for model generation. But, here training examples are stored. Distance function is used to find closest examples to an instance so that successful prediction can be made. K-NN can be used for recommendation systems where the input instance is checked for closest training example and then data point is classified into a group for which recommendations can be made.
+
+Linear Regression- It is a regression algorithm that tries to fit a straight line over data points in a 2-D plane where the two variables involved are highly correlated with each other and are independent and not collinear. Main idea is to keep the root mean squared error values(distances between the line to be fit and the training data points) minimum. An HR department of an organization can use the current experience of a professional they wish to interview, to get an idea about how much salary can be given to him/her as salaries are highly positively correlated with experience.
 
 9. What is the difference between supervised and unsupervised learning? With a sample application in each region, explain the differences.
 
 Ans: Supervised machine learning is done using labeled data whereas unsupervised learning has no labeled data.
 
-Classification of flowers in IRIS dataset is a very common application of supervised machine learning. The dataset has 4 features: Petal length, Petal width, Sepal length and Sepal width. Target variable contains labels Virginica, Versicolor and Setosa. If using Decision Trees algorithm, multiple hyperplanes are created such that if 
+Classification of flowers in IRIS dataset is a very common application of supervised machine learning. The dataset has 4 features: Petal length, Petal width, Sepal length and Sepal width. Target variable contains labels Virginica, Versicolor and Setosa. If using Decision Trees algorithm, then labeled data is necessary for criterias or thresholds to be built that have to be either passed or failed by values of independent variables. The class labels are known beforehand and come from a finite set.
+
+Clustering of customers based on their previous purchases on e-commerce websites requires unlabeled data. If k means algorithm is used then based on calculations of centroids, data points are classified into clusters. Since the class labels were not known beforehand but did come from a finite set, number of clusters initialized becomes highly important.   
 
 10. Describe the machine learning process in depth.
 
@@ -97,7 +104,6 @@ Classification of flowers in IRIS dataset is a very common application of superv
 
 
 a. Make brief notes on any two of the following:
-
 i. MATLAB is one of the most widely used programming languages.
 
 *MATLAB short for Matrix Laboratory is a widely used programming language which finds its most usage in writing mathematically intensive, technical programs that have a very low space and time complexity issue. MATLAB has graph plotting capabilities, fast array-based computations, and large mathematical functions library.*
