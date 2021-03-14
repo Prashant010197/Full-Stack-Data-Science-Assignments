@@ -2,35 +2,35 @@
 
 1.Explain the term machine learning, and how does it work? Explain two machine learning applications in the business world. What are some of the ethical concerns that machine learning applications could raise?
 
-   *Ans: Machine Learning is a subset of Artificial Intelligence which provides mathematical tools to analyze data, do Exploratory Data Analysis, make predictive models and exposed APIs and more. Machine Learning works by providing the computer capability to make predictions or help analysis of data by creating complex algorithmic models that are trained to work within constraints that have to be specified in training data.*
+  *Ans: Machine Learning is a subset of Artificial Intelligence which provides mathematical tools to analyze data, do Exploratory Data Analysis, make predictive models and exposed APIs and more. Machine Learning works by providing the computer capability to make predictions or help analysis of data by creating complex algorithmic models that are trained to work within constraints that have to be specified in training data.*
    
-   *Applications:*
+  *Applications:*
    
-   *a. Learning the overall sentiment of consumers regarding a product launched a while ago using their reviews on an e-commerce website using Natural Language Processing to understand how the product is faring in the market*
+  *a. Learning the overall sentiment of consumers regarding a product launched a while ago using their reviews on an e-commerce website using Natural Language Processing to understand how the product is faring in the market*
    
-   *b. Using machine learning algorithms to cluster similar customers and provide them recommendations based on their history, on a streaming service platform.*
+  *b. Using machine learning algorithms to cluster similar customers and provide them recommendations based on their history, on a streaming service platform.*
 
 2. Describe the process of human learning:
 
 i. Under the supervision of experts
 
-   *Ans: Under supervision, learning is defined by guidance provided to the learner. This guidance or supervision trains the learner to solve certain type of problems. Problems can range from formal communication, to mathematical calculations. Pre-calculated answers provide for rectifications and course correction during learning.*
+  *Ans: Under supervision, learning is defined by guidance provided to the learner. This guidance or supervision trains the learner to solve certain type of problems. Problems can range from formal communication, to mathematical calculations. Pre-calculated answers provide for rectifications and course correction during learning.*
 
 ii. With the assistance of experts in an indirect manner
 
-   *Ans: Under indirect assistance, learning is defined by guidance provided to the learner through indirect means. These indirect means can range from books, to periodic advise from experts. This guidance or supervision trains the learner to solve certain type of problems but not as easily as under supervision. Problems can range from formal communication, to mathematical calculations. Expert indirect guidance provide for only limited rectifications and course correction during learning.*
+  *Ans: Under indirect assistance, learning is defined by guidance provided to the learner through indirect means. These indirect means can range from books, to periodic advise from experts. This guidance or supervision trains the learner to solve certain type of problems but not as easily as under supervision. Problems can range from formal communication, to mathematical calculations. Expert indirect guidance provide for only limited rectifications and course correction during learning.*
 
 iii. Self-education
 
-   *Ans: Under no supervision, learning is defined by self guidance provided to the learner by himself. The learner has the entire burden of finding ways to solve certain type of problems. Problems can range from formal communication, to mathematical calculations. Only self-calculated answers provide for rectifications and course correction during learning.*
+  *Ans: Under no supervision, learning is defined by self guidance provided to the learner by himself. The learner has the entire burden of finding ways to solve certain type of problems. Problems can range from formal communication, to mathematical calculations. Only self-calculated answers provide for rectifications and course correction during learning.*
 
 3. Provide a few examples of various types of machine learning.
 
   *Ans: a. Supervised machine learning- Logistic Regression, Random Forest Classifier, Naive Bayes Classifier et cetera.*
    
-   *b. Unsupervised machine learning- Heirarchichal clustering, DBSCAN algorithm, K means and K medoids algorithms et cetera.*
+  *b. Unsupervised machine learning- Heirarchichal clustering, DBSCAN algorithm, K means and K medoids algorithms et cetera.*
    
-   *c. Semi-supervised machine learning- Associative reinforcement learning, deep reinforcement learning et cetera*
+  *c. Semi-supervised machine learning- Associative reinforcement learning, deep reinforcement learning et cetera*
 
 4. Examine the various forms of machine learning.
 
