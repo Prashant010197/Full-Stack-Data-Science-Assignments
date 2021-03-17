@@ -2,7 +2,7 @@
 
 1.Explain the term machine learning, and how does it work? Explain two machine learning applications in the business world. What are some of the ethical concerns that machine learning applications could raise?
 
-  *Ans: Machine Learning is a subset of Artificial Intelligence which provides mathematical tools to analyze data, do Exploratory Data Analysis, make predictive models and exposed APIs and more. Machine Learning works by providing the computer capability to make predictions or help analysis of data by creating complex algorithmic models that are trained to work within constraints that have to be specified in training data. Ethical concerns that machine learning applications can raise are data related. As more and more data hungry applications are being created, the fine line between ethical handling and collection of data from various sources may blur. For this reason, we need sanity checks in place. *
+  *Ans: Machine Learning is a subset of Artificial Intelligence which provides mathematical tools to analyze data, do Exploratory Data Analysis, make predictive models and exposed APIs and more. Machine Learning works by providing the computer capability to make predictions or help analysis of data by creating complex algorithmic models that are trained to work within constraints that have to be specified in training data. Ethical concerns that machine learning applications can raise are data related. As more and more data hungry applications are being created, the fine line between ethical handling and collection of data from various sources may blur. For this reason, we need sanity checks in place.*
    
   *Applications:*
    
